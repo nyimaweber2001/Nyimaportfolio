@@ -1,0 +1,275 @@
+* {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1em;
+  color: #303030; }
+
+a {
+  color: #303030;
+  text-decoration: none; }
+
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center; }
+
+h1, h4 {
+  text-align: center;
+  font-size: 3.5em;
+  font-family: "Bebas Neue", cursive; }
+
+h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.5em; }
+
+h3 {
+  color: #FFFFFF;
+  font-size: 1.2em; }
+
+h4 {
+  margin: 100px 0 0 0;
+  color: #D5C9B8; }
+
+p {
+  font-family: "Prata", serif; }
+
+nav {
+  width: 100%;
+  height: 3em;
+  position: absolute;
+  top: 0; }
+  nav .logo {
+    display: flex;
+    float: left;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: "Bebas Neue", cursive;
+    font-size: 2em; }
+  nav ul {
+    list-style-type: none;
+    width: 30%;
+    height: 100%;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; }
+    nav ul li {
+      float: right;
+      display: inline-block; }
+
+.fixed {
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  top: 0; }
+
+.header {
+  background-image: url(../img/rooftops.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .header .newblog {
+    display: inline-block;
+    text-align: center; }
+    .header .newblog .buttonflex {
+      width: 100%;
+      display: flex;
+      align-content: center;
+      margin: 0 0 100px 0; }
+      .header .newblog .buttonflex button {
+        background-color: #FFFFFF;
+        border: none;
+        color: black;
+        padding: 20px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 0 auto;
+        cursor: pointer;
+        transition-duration: 0.2s;
+        border-radius: 35px; }
+        .header .newblog .buttonflex button:hover {
+          box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.1); }
+
+main {
+  text-align: center; }
+
+.content_desc {
+  margin: 50px 0 0 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: stretch;
+  align-content: space-around; }
+  .content_desc div {
+    text-align: center; }
+    .content_desc div img {
+      width: 280px;
+      height: 280px;
+      border-radius: 1000px; }
+
+.fotogrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 50px 0 0 0; }
+
+.fotogrid_foto {
+  background-image: url(../img/paris_rooftops.jpg);
+  background-size: cover;
+  width: 33.333%;
+  height: 70vh; }
+  .fotogrid_foto:nth-child(1) {
+    background-image: url(../img/adrien-prv-wAScP0OY-yM-unsplash.jpg); }
+  .fotogrid_foto:nth-child(2) {
+    background-image: url(../img/joshua-humphrey-ijpAiRjLO0k-unsplash.jpg); }
+  .fotogrid_foto:nth-child(3) {
+    background-image: url(../img/madalena-veloso-e2rtyRTCsns-unsplash.jpg); }
+  .fotogrid_foto:nth-child(4) {
+    background-image: url(../img/pascal-diekmann-oyE2KWO7Vc4-unsplash.jpg); }
+  .fotogrid_foto:nth-child(5) {
+    background-image: url(../img/robin-benzrihem-olpYWcO2kHw-unsplash.jpg); }
+  .fotogrid_foto:nth-child(6) {
+    background-image: url(../img/joshua-humphrey-krUMis4enhw-unsplash.jpg); }
+
+.info, .info_food, .info_quartiere {
+  width: 75%;
+  height: 900px;
+  display: inline-block;
+  margin: 10px 0 0 0; }
+
+.info_foto, .info_foto_food, .info_foto_quartiere {
+  background-size: cover;
+  width: 50%;
+  height: 50%;
+  float: left; }
+  .info_foto:nth-child(1), .info_foto_food:nth-child(1), .info_foto_quartiere:nth-child(1) {
+    background-image: url(../img/louvre.jpg); }
+  .info_foto:nth-child(2), .info_foto_food:nth-child(2), .info_foto_quartiere:nth-child(2), .info_foto:nth-child(3), .info_foto_food:nth-child(3), .info_foto_quartiere:nth-child(3) {
+    background-color: #D5C9B8; }
+  .info_foto:nth-child(4), .info_foto_food:nth-child(4), .info_foto_quartiere:nth-child(4) {
+    background-image: url(../img/fluss.jpg); }
+  .info_foto:nth-child(5), .info_foto_food:nth-child(5), .info_foto_quartiere:nth-child(5) {
+    background-image: url(../img/versailles.jpg); }
+  .info_foto:nth-child(6), .info_foto_food:nth-child(6), .info_foto_quartiere:nth-child(6), .info_foto:nth-child(7), .info_foto_food:nth-child(7), .info_foto_quartiere:nth-child(7) {
+    background-color: #D5C9B8; }
+  .info_foto:nth-child(8), .info_foto_food:nth-child(8), .info_foto_quartiere:nth-child(8) {
+    background-image: url(../img/notre_dame.jpg); }
+
+.info_foto_food:nth-child(1) {
+  background-image: url(../img/burger.png); }
+.info_foto_food:nth-child(2) {
+  background-color: #D5C9B8;
+  text-align: left;
+  color: white; }
+.info_foto_food:nth-child(3) {
+  background-color: #D5C9B8;
+  text-align: right;
+  color: white; }
+.info_foto_food:nth-child(4) {
+  background-image: url(../img/falafel.jpg); }
+.info_foto_food:nth-child(5) {
+  background-image: url(../img/wildmoon.png); }
+.info_foto_food:nth-child(6) {
+  background-color: #D5C9B8;
+  text-align: left;
+  color: white; }
+.info_foto_food:nth-child(7) {
+  background-color: #D5C9B8;
+  text-align: right;
+  color: white; }
+.info_foto_food:nth-child(8) {
+  background-image: url(../img/cafe.png); }
+.info_foto_food:nth-child(9) {
+  background-image: url(../img/fluffy.png); }
+.info_foto_food:nth-child(10) {
+  background-color: #D5C9B8;
+  text-align: left;
+  color: white; }
+
+.info_foto_quartiere:nth-child(1) {
+  background-image: url(../img/galerieslafayette.jpg); }
+.info_foto_quartiere:nth-child(2) {
+  background-color: #D5C9B8;
+  text-align: left;
+  color: white; }
+.info_foto_quartiere:nth-child(3) {
+  background-color: #D5C9B8;
+  text-align: right;
+  color: white; }
+.info_foto_quartiere:nth-child(4) {
+  background-image: url(../img/champselysees.png); }
+.info_foto_quartiere:nth-child(5) {
+  background-image: url(../img/BHV.png); }
+.info_foto_quartiere:nth-child(6) {
+  background-color: #D5C9B8;
+  text-align: left;
+  color: white; }
+.info_foto_quartiere:nth-child(7) {
+  background-color: #D5C9B8;
+  text-align: right;
+  color: white; }
+.info_foto_quartiere:nth-child(8) {
+  background-image: url(../img/colette.png); }
+.info_foto_quartiere:nth-child(9) {
+  background-image: url(../img/shoppingmarais.png); }
+.info_foto_quartiere:nth-child(10) {
+  background-color: #D5C9B8;
+  text-align: left;
+  color: white; }
+
+.footer {
+  background-color: #D5C9B8;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  padding: 50px 60px 40px;
+  margin: 50px 0 0 0;
+  overflow: hidden; }
+  .footer .footer-left {
+    float: left; }
+    .footer .footer-left .footer-icons {
+      margin-top: 40px; }
+      .footer .footer-left .footer-icons a {
+        display: inline-block;
+        width: 35px;
+        height: 35px;
+        cursor: pointer;
+        border-radius: 2px;
+        font-size: 1.5em; }
+        .footer .footer-left .footer-icons a i {
+          color: #FFF; }
+  .footer .footer-right {
+    float: right;
+    width: 50%; }
+    .footer .footer-right form {
+      display: block; }
+      .footer .footer-right form label {
+        color: #505050; }
+      .footer .footer-right form input[type="text"], .footer .footer-right form textarea {
+        border-radius: 3px;
+        box-sizing: border-box;
+        background-color: #FFFFFF;
+        box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+        border: none;
+        resize: none;
+        width: 500px;
+        margin: 5px 0;
+        padding: 1em; }
+      .footer .footer-right form input[type="radio"] {
+        margin-top: -1px;
+        vertical-align: middle; }
+
+/*# sourceMappingURL=style.css.map */
